@@ -15,13 +15,13 @@ Gem::Specification.new do |s|
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
 
   s.add_dependency 'rails', '>= 4.0.0'
-  s.add_dependency 'bcrypt', '>= 3.1.2', '< 3.2'
-  s.add_dependency 'ransack', '>= 1.2.0', '< 1.6.3'
-  s.add_dependency 'kaminari', '>= 0.14.1', '< 0.17'
-  s.add_dependency 'haml', '>= 4.0', '< 5.0'
-  s.add_dependency 'dynamic_form', '~> 1.1', '>= 1.1.4'
+  s.add_dependency 'bcrypt', '>= 3.1.2'
+  s.add_dependency 'ransack', '>= 1.2.0'
+  s.add_dependency 'kaminari', '>= 0.14.1'
+  s.add_dependency 'haml', '>= 4.0'
+  s.add_dependency 'dynamic_form', '~> 1.1'
   s.add_dependency 'jquery-rails', '>= 3'
-  s.add_dependency 'roo', '>= 1.13.0', '< 1.14'
+  s.add_dependency 'roo', '>= 1.13.0'
   s.add_dependency 'awesome_nested_set', '~> 3.0.2'
   s.add_dependency 'globalize'
 

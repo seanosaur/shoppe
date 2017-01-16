@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'dynamic_form', '~> 1.1'
   s.add_dependency 'jquery-rails', '>= 3'
   s.add_dependency 'roo', '>= 1.13.0'
-  s.add_dependency 'awesome_nested_set', '~> 3.0.2'
+  s.add_dependency 'awesome_nested_set', '~> 3.1'
   s.add_dependency 'globalize'
 
   s.add_dependency 'nifty-key-value-store', '>= 1.0.1', '< 2.0.0'
